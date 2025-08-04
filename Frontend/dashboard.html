@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Intern Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="logo">Intern<span>Portal</span></div>
+    
+
+    <div class="dashboard">
+        <h2>Welcome, <span id="internName"></span></h2>
+        <p>Referral Code: <b id="referralCode"></b></p>
+        <p>Total Donations Raised: ₹<span id="donations"></span></p>
+
+        <button onclick="simulateDonation()">Simulate ₹500 Donation</button>
+        <button onclick="window.location.href='leaderboard.html'">View Leaderboard</button>
+        
+        <h3>Rewards Unlocked</h3>
+        <div class="rewards-container">
+            <!-- Rewards dynamically added here -->
+        </div>
+        <div id="badgeProgress" class="badge-progress-container"></div>
+
+        <button id="btn" onclick="logout()">Logout</button>
+        <button id="btn" onclick="deleteUser()" style="background:red;color:white;">Delete Account</button>
+
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+
+<script src="script.js"></script>
+</body>
+</html>

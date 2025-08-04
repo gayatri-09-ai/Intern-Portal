@@ -22,3 +22,6 @@ Backend: Node.js, Express.js
 Database: MongoDB (Mongoose)
 Environment Management: dotenv
 API Communication: Fetch API
+
+
+

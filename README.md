@@ -28,7 +28,7 @@ Hosting: Render (Backend) + Netlify/Vercel (Frontend)
 
 # Installation & Setup 
   1. Clone Repository
-     git clone <your-repo-link>
+     git clone https://github.com/gayatri-09-ai/Intern-Portal.git
      cd intern-portal
   2. Backend Setup
      cd backend

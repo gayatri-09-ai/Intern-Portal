@@ -1,27 +1,54 @@
-# Intern-Portal
-A simple web application where users can sign up, log in, donate money, earn badges based on milestones, and view a leaderboard. Built using Node.js, Express, MongoDB, and plain HTML/CSS/JS.
+🌟 Intern Portal – Donation & Rewards System
+
+Project Overview
+This is a Full-Stack Intern Portal where users can:
+Sign up / log in using their name.
+Get a referral code automatically.
+Make simulated donations (₹500 increments).
+
+# Unlock rewards (badges) based on donation milestones:
+  Badge 1: ₹5,000+
+  Badge 2: ₹10,000+
+  Badge 3: ₹20,000+
+  View Leaderboard of top donors.
+  Delete their account anytime.
+
+🛠 Tech Stack
+Frontend: HTML, CSS, JavaScript
+Backend: Node.js, Express.js
+Database: MongoDB (Local)
+Hosting: Render (Backend) + Netlify/Vercel (Frontend)
 
 # Features
-User Signup & Login – Users can create accounts and log in securely.
+  Simple login/signup (name only)
+  Referral system (auto-generated codes)
+  Donation tracking & rewards with badges
+  Leaderboard with dynamic ranking
+  Account deletion & logout support
 
-Donation System – Simulate donations (e.g., ₹500 increments).
+# Installation & Setup 
+  1. Clone Repository
+     git clone <your-repo-link>
+     cd intern-portal
+  2. Backend Setup
+     cd backend
+     npm install
+     Create a `.env` file in the root of your backend project with the following keys:
+     MONGO_URI=<your-mongodb-connection-string>
+     PORT=5000
+  4. Frontend Setup
+     Open frontend/index.html in your browser OR use Live Server in VS Code.
+   
+# Screenshots
 
-Badge Rewards – Earn badges when crossing donation milestones:
-Badge 1 – ₹5,000
-Badge 2 – ₹10,000
-Badge 3 – ₹20,000
 
-Leaderboard – Shows top donors sorted by donation amount.
-User Dashboard – Displays user details, referral code, total donations, badges earned, and progress toward next badge.
-Delete Account – Users can delete their account anytime.
-Real-time Updates – Dashboard updates instantly after each donation.
+# License
+  Copyright (c) 2025 Gayatri Dilip Pawar
+  All rights reserved. Unauthorized copying, modification, or use of this code, via any medium, is strictly prohibited.
+  
+# Contact
+  For queries, contact: kittupawar0911@gmail.com
 
-# Tech Stack
-Frontend: HTML, CSS, JavaScript (Vanilla)
-Backend: Node.js, Express.js
-Database: MongoDB (Mongoose)
-Environment Management: dotenv
-API Communication: Fetch API
 
 
 

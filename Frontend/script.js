@@ -1,4 +1,4 @@
-const API_URL = "https://intern-portal-1-9io3.onrender.com/api";
+const API_URL = "http://localhost:5000/api";
 
 
 // LOGIN

@@ -1,0 +1,11 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Gayatri Pawar",
+      "referralCode": "REF123",
+      "donations": 12000,
+      "rewards": ["Badge 1", "Badge 2"]
+    }
+  ]
+}

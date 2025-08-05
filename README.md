@@ -40,7 +40,13 @@ Hosting: Render (Backend) + Netlify/Vercel (Frontend)
      Open frontend/index.html in your browser OR use Live Server in VS Code.
    
 # Screenshots
-
+  * Login Page
+    ![Login Screenshot](screenshots/loginPage.png)
+  * Dashboard
+    ![Dashboard Screenshot](screenshots/Dashboard.png)
+  * Leaderboard
+   ![Leaderboard Screenshot](screenshots/Leaderboard.png)
+  
 
 # License
   Copyright (c) 2025 Gayatri Dilip Pawar
